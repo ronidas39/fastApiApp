@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        AWS_REGION = 'us-east-1'  // Replace with your AWS region
-        ECR_REPO_NAME = 'fastapi-app'
+        AWS_REGION = 'us-west-2'  // Replace with your AWS region
+        ECR_REPO_NAME = 'fastapiapp'
         IMAGE_TAG = 'latest'
-        AWS_ACCOUNT_ID = '123456789012'  // Replace with your AWS account ID
+        AWS_ACCOUNT_ID = '533267390914'  // Replace with your AWS account ID
     }
 
     stages {
